@@ -90,11 +90,38 @@
     ================================================== -->
     <div class="row">
       <div class="span3" style="outline:1px dashed red;">
-       side bar
+       <h3>side bar</h3>
+       <a href="#myModal" role="button" class="btn" data-toggle="modal">
+       		<img src="../img/video-thumb.png" />
+       </a>
+       <!-- Modal -->
+			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">Modal header</h3>
+			</div>
+			<div class="modal-body">
+			<video id=0 controls width=100% >
+		    <source src="../video/nationwide.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+		    <source src="../video/nationwide.webm" type='video/webm' >
+		    <source src="../video/nationwide.mp4" type='video/mp4'>
+            <track src="../video/subtitles.vtt" kind="subtitles" srclang="en" label="English" />
+			  <p>Video is not visible, most likely your browser does not support HTML5 video. Please download either <a href="../video/nationwide.webm">WEBM</a> or <a href="../video/nationwide.mp4">MP4</a> format.</p>
+		  </video>
+			</div>
+			<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+			</div>
+
+
+
+
+
       </div>
       <div class="span9" style="outline:1px dashed blue;">
 		  <h2>Main Content</h2>
-		  <video id=0 controls width=480 height=360>
+		  <video id=0 controls width=100% >
 		    <source src="../video/nationwide.ogv" type='video/ogg; codecs="theora, vorbis"'/>
 		    <source src="../video/nationwide.webm" type='video/webm' >
 		    <source src="../video/nationwide.mp4" type='video/mp4'>
