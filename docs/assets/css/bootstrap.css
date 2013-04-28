@@ -3813,6 +3813,10 @@ input[type="submit"].btn.btn-mini {
   font-size: 16px;
   font-weight: normal;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .navbar .brand .nat-first-line {
   font-size: 18px;
