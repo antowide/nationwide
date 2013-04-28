@@ -244,6 +244,9 @@
   color: @navbarLinkColor;
   text-decoration: none;
   text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  border-bottom:0px solid @natBlue;
+  margin-bottom:0px;  
+  transition:all .2s ease-in-out;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -256,6 +259,8 @@
   background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
   color: @navbarLinkColorHover;
   text-decoration: none;
+  border-bottom:5px solid @natBlue;
+  margin-bottom:-5px;
 }
 
 // Active nav items
