@@ -872,7 +872,8 @@
 }
 @media (max-width: 979px) {
   body {
-    padding-top: 0;
+    padding-top: 20px;
+    outline: 10px dashed red!important;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -895,7 +896,8 @@
   .navbar .brand {
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 0 0 -5px;
+    margin: 0 0 0 50px;
+    outline: 2px dashed red;
   }
   .nav-collapse {
     clear: both;
