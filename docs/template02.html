@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <title>Carousel Template &middot; Bootstrap</title>
@@ -317,23 +320,20 @@
           <li><a href="#">Home</a> <span class="divider">/</span></li>
           <li><a href="#">Property Search</a> <span class="divider">/</span></li>
           <li class="active">Residential Property</li>
-          <li>
-            <form action="" class="navbar-search pull-left" >
-              <input type="text" placeholder="Search" class="search-query span2" list="nat-search">
-              <datalist id="nat-search">
-              	<option value="Home" href="http://www.google.com">
-                <option value="About Us">
-                <option value="Property Search">
-                <option value="Residential Property">
-                <option value="Commercial Property">
-                <option value="Finance">
-                <option value="Links">
-                <option value="Testimonials">
-                <option value="Contact Us">
-                <option value="Disclaimer">
-              </datalist>
-              <button type="submit" value="search" >Search</button>
-            </form>
+          <li class="google-search">
+           <script>
+			  (function() {
+			    var cx = '007322681729399341480:azzjilezgcg';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			        '//www.google.com/cse/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:search></gcse:search>
           </li>
         </ul>
         
