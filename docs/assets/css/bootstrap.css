@@ -235,6 +235,9 @@ body {
   color: #333333;
   /*background-color:@bodyBackground;*/
   background: url(../../../img/bg-2x2.gif) no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-size: 100% 100%;
 }
 a {
@@ -3684,6 +3687,9 @@ input[type="submit"].btn.btn-mini {
 .lt-ie9 .navbar .brand {
   outline: 5px dashed blue;
   background: url(../img/logo01.png) no-repeat scroll 0 0 #ff0000;
+}
+.lt-ie9 .navbar .brand img.nat-logo {
+  display: none;
 }
 .navbar-text {
   margin-bottom: 0;
