@@ -226,6 +226,9 @@ textarea {
 .row {
   outline: 2px dashed blue;
 }
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   padding-bottom: 40px;
@@ -266,6 +269,13 @@ a:hover {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
+}
+footer {
+  color: #fff;
+}
+footer > div {
+  background: #000;
+  padding: 20px 0;
 }
 .row {
   margin-left: -20px;
@@ -549,6 +559,8 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .container:before,
 .container:after {
@@ -4195,7 +4207,7 @@ input[type="submit"].btn.btn-mini {
 }
 .breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 20px;
+  margin: -10px 0 10px /*@baseLineHeight*/;
   list-style: none;
   background-color: rgba(255, 255, 255, 0.8);
   position: relative;
