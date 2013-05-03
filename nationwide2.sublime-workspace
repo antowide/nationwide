@@ -22,16 +22,24 @@
 				"buffer_size": 13149,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/C/Users/Ant/Desktop/EE/fonts/icomoon81263/icomoon81263/index.html",
+			"settings":
+			{
+				"buffer_size": 34464,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 311.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -82,7 +90,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -135,6 +143,33 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Ant/Desktop/EE/fonts/icomoon81263/icomoon81263/index.html",
+					"settings":
+					{
+						"buffer_size": 34464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15375.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
