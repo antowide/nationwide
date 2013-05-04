@@ -211,6 +211,7 @@ textarea {
 }
 html {
   height: auto;
+  min-height: 100%;
 }
 body {
   margin: 0;
