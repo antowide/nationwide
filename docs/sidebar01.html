@@ -88,8 +88,8 @@
   		</div> <!-- /.container -->
     </div>
     <div class="container">
-      <div class="row flexbox">
-        <div class="span7 flexbox">
+      <div class="row">
+        <div class="span7">
 	        <div class="span7">
 	          <h2>Page Heading</h2>
 	          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -126,12 +126,12 @@
                     	<dd>Residential property, to buy</dd>
                     </dl>
                     <form>
-                      <label class="control-label" for="inputArea">Area</label>
+                      <label for="inputArea">Area</label>
                       <input type="text" id="inputArea" placeholder="Area">
                       <fieldset>
                       		<legend>Price range</legend>
-                            <label class="control-label" for="min1">Minimum price:</label>
-                            <select id="min1" class="main_combo" name="min">
+                            <label for="min1">Minimum price:</label>
+                            <select id="min1" name="min1">
 								<option value="0" selected="">No lower limit</option>
 								<option value="100000">&pound;100,000</option>
 								<option value="200000">&pound;200,000</option>
@@ -144,8 +144,8 @@
 								<option value="900000">&pound;900,000</option>
 							</select>
                             
-                            <label class="control-label" for="max1">Maximum price:</label>
-                            <select id="max1" class="main_combo" name="max">
+                            <label for="max1">Maximum price:</label>
+                            <select id="max1" name="max1">
 								<option value="100000">£100,000</option>
 								<option value="200000">£200,000</option>
 								<option value="300000">£300,000</option>
@@ -158,6 +158,16 @@
 								<option value="0" selected="">No higher limit</option>
 							</select>
                       </fieldset>
+                      <label for="bed1">No. bedrooms:</label>
+                            <select id="bed1" name="bed1">
+								<option value="any">Any</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
                       <button type="submit" class="btn">Search</button>
                     </form>
 	              </div>  
