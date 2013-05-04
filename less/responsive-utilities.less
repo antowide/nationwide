@@ -29,6 +29,13 @@
   .visible-tablet    { display: inherit !important; }
   // Hide
   .hidden-tablet     { display: none !important; }
+   .prop-search {
+	  .tab-content 	{ padding:0;
+		  			  input, button, select, textarea {
+					  	width:100%;
+	  				}
+	}
+  }
 }
 
 // Phones only
@@ -40,4 +47,26 @@
   .visible-phone     { display: inherit !important; } // Use inherit to restore previous behavior
   // Hide
   .hidden-phone      { display: none !important; }
+  .prop-search{
+	  .tab-content { padding:0 20px;
+						input, button, select, textarea {
+						}
+					   .btn-large {
+					    	display:block;
+					   }
+  		}
+  	}
+}
+
+
+
+// Small Phones only
+@media (max-width: 500px) {
+  .prop-search {
+	  .tab-content 	{ padding:0 20px;
+		  			  input, button, select, textarea {
+					  	width:100%;
+	  				}
+	}
+  }
 }

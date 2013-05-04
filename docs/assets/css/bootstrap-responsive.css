@@ -66,6 +66,15 @@
   .hidden-tablet {
     display: none !important;
   }
+  .prop-search .tab-content {
+    padding: 0;
+  }
+  .prop-search .tab-content input,
+  .prop-search .tab-content button,
+  .prop-search .tab-content select,
+  .prop-search .tab-content textarea {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .hidden-desktop {
@@ -79,6 +88,23 @@
   }
   .hidden-phone {
     display: none !important;
+  }
+  .prop-search .tab-content {
+    padding: 0 20px;
+  }
+  .prop-search .tab-content .btn-large {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .prop-search .tab-content {
+    padding: 0 20px;
+  }
+  .prop-search .tab-content input,
+  .prop-search .tab-content button,
+  .prop-search .tab-content select,
+  .prop-search .tab-content textarea {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
@@ -873,7 +899,6 @@
 @media (max-width: 979px) {
   body {
     padding-top: 20px;
-    outline: 10px dashed red!important;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
