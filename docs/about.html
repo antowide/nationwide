@@ -42,8 +42,8 @@
             <img class="nat-logo" src="../img/logo01.svg" alt="Nationwide logo"><span class="nat-first-line">nationwide</span><br>Residential &amp; Commercial</a>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About Us</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Property Search <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -63,12 +63,11 @@
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
-        </div>
+        </div><!-- /.navbar -->
         
         <ul class="breadcrumb">
           <li><a href="#">Home</a> <span class="divider">/</span></li>
-          <li><a href="#">Property Search</a> <span class="divider">/</span></li>
-          <li class="active">Residential Property</li>
+          <li class="active">About Us</li>
           <li class="google-search">
            <script>
 			  (function() {
@@ -88,27 +87,235 @@
   		</div> <!-- /.container -->
     </div>
     <div class="container">
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div>
       <div class="row">
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+        <div class="span7">
+	        <div class="span7">
+	          <h2>About Nationwide Residential &amp; Commercial</h2>
+	          <p>Nationwide Residential &amp; Commercial   was established as a commercial agency in 2003. We started to offer   both residential and commercial services in 2004. This was due to   consistent requests from our existing commercial clientele.</p>
+              <p>Our   experienced team take our standards of service and customer care very   seriously. In addition to everything that you would expect to find at a   highly rated estate agent, we've developed a range of new services and   marketing techniques to help you with absolutely every aspect of   residential and commercial property.</p>
+              <p>Buying   or selling a home or business is one of the most important decisions   you will ever make. Choosing the right company to advise you through   this often stressful process is just as important.</p>
+              <p>Here at Nationwide Residential &amp; Commercial, we can assure you that we will always put you first and help you maximise the value of your asset.</p>
+              <p>For   an excellent standard of service, a unique approach to marketing of   your property or business and a very competitive fee structure, please<a href="contact.html"> contact us</a> immediately.</p>
+	        </div>
         </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+        <div class="span5">
+          <div class="span4 prop-search">
+          <h3>Property Search</h3>
+          <p>Please filter your search by choosing either <em>residential</em> or <em>commercial</em> from the tabs below.</p>
+          <div>
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Residential <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#resi-buy" data-toggle="tab">To Buy</a></li>
+                  <li><a href="#resi-rent" data-toggle="tab">To Rent</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Commercial <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#com-buy" data-toggle="tab">To Buy</a></li>
+                  <li><a href="#com-let" data-toggle="tab">To Let</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="resi-buy">
+	              <div class="span3">
+	                <dl>
+                      	<dt>Search Type:</dt>
+                    	<dd>Residential property, to buy</dd>
+                    </dl>
+                    <form>
+                      <label for="inputArea">Area</label>
+                      <input type="text" id="inputArea" placeholder="Area">
+                      <fieldset>
+                      		<legend>Price range</legend>
+                            <label for="min1">Minimum price:</label>
+                            <select id="min1" name="min1">
+								<option value="0" selected="">No lower limit</option>
+								<option value="100000">&pound;100,000</option>
+								<option value="200000">&pound;200,000</option>
+								<option value="300000">&pound;300,000</option>
+								<option value="400000">&pound;400,000</option>
+								<option value="500000">&pound;500,000</option>
+								<option value="600000">&pound;600,000</option>
+								<option value="700000">&pound;700,000</option>
+								<option value="800000">&pound;800,000</option>
+								<option value="900000">&pound;900,000</option>
+							</select>
+                            
+                            <label for="max1">Maximum price:</label>
+                            <select id="max1" name="max1">
+								<option value="100000">£100,000</option>
+								<option value="200000">£200,000</option>
+								<option value="300000">£300,000</option>
+								<option value="400000">£400,000</option>
+								<option value="500000">£500,000</option>
+								<option value="600000">£600,000</option>
+								<option value="700000">£700,000</option>
+								<option value="800000">£800,000</option>
+								<option value="900000">£900,000</option>
+								<option value="0" selected="">No higher limit</option>
+							</select>
+                      </fieldset>
+                      <label for="bed1">No. bedrooms:</label>
+                            <select id="bed1" name="bed1">
+								<option value="any">Any</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+                      <button type="submit" class="btn btn-large btn-primary">Search</button>
+                    </form>
+	              </div>  
+              </div>
+              <div class="tab-pane fade" id="resi-rent">
+	              <div class="span3">
+                    <dl>
+                      	<dt>Search Type:</dt>
+                    	<dd>Residential property, to ren</dd>
+                    </dl>
+                    <form>
+                      <label for="inputArea">Area</label>
+                      <input type="text" id="inputArea" placeholder="Area">
+                      <fieldset>
+                      		<legend>Price range</legend>
+                            <label for="min2">Minimum price:</label>
+                            <select id="min2" name="min2">
+								<option value="0" selected="">No lower limit</option>
+								<option value="100000">&pound;100,000</option>
+								<option value="200000">&pound;200,000</option>
+								<option value="300000">&pound;300,000</option>
+								<option value="400000">&pound;400,000</option>
+								<option value="500000">&pound;500,000</option>
+								<option value="600000">&pound;600,000</option>
+								<option value="700000">&pound;700,000</option>
+								<option value="800000">&pound;800,000</option>
+								<option value="900000">&pound;900,000</option>
+							</select>
+                            
+                            <label for="max2">Maximum price:</label>
+                            <select id="max2" name="max2">
+								<option value="100000">£100,000</option>
+								<option value="200000">£200,000</option>
+								<option value="300000">£300,000</option>
+								<option value="400000">£400,000</option>
+								<option value="500000">£500,000</option>
+								<option value="600000">£600,000</option>
+								<option value="700000">£700,000</option>
+								<option value="800000">£800,000</option>
+								<option value="900000">£900,000</option>
+								<option value="0" selected="">No higher limit</option>
+							</select>
+                      </fieldset>
+                      <label for="bed2">No. bedrooms:</label>
+                            <select id="bed2" name="bed2">
+								<option value="any">Any</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+                      <button type="submit" class="btn btn-large btn-primary">Search</button>
+                    </form>
+	              </div>
+              </div>
+              <div class="tab-pane fade" id="com-buy">
+                <div class="span3">
+                    <dl>
+                      	<dt>Search Type:</dt>
+                    	<dd>Commercial property, to buy</dd>
+                    </dl>
+                    <form>
+                      <label for="inputArea">Area</label>
+                      <input type="text" id="inputArea" placeholder="Area">
+                      <fieldset>
+                      		<legend>Price range</legend>
+                            <label for="min3">Minimum price:</label>
+                            <select id="min3" name="min3">
+								<option value="0" selected="">No lower limit</option>
+								<option value="100000">&pound;100,000</option>
+								<option value="200000">&pound;200,000</option>
+								<option value="300000">&pound;300,000</option>
+								<option value="400000">&pound;400,000</option>
+								<option value="500000">&pound;500,000</option>
+								<option value="600000">&pound;600,000</option>
+								<option value="700000">&pound;700,000</option>
+								<option value="800000">&pound;800,000</option>
+								<option value="900000">&pound;900,000</option>
+							</select>
+                            
+                            <label for="max3">Maximum price:</label>
+                            <select id="max3" name="max3">
+								<option value="100000">£100,000</option>
+								<option value="200000">£200,000</option>
+								<option value="300000">£300,000</option>
+								<option value="400000">£400,000</option>
+								<option value="500000">£500,000</option>
+								<option value="600000">£600,000</option>
+								<option value="700000">£700,000</option>
+								<option value="800000">£800,000</option>
+								<option value="900000">£900,000</option>
+								<option value="0" selected="">No higher limit</option>
+							</select>
+                      </fieldset>
+                      <button type="submit" class="btn btn-large btn-primary">Search</button>
+                    </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="com-let">
+                <div class="span3">
+                    <dl>
+                      	<dt>Search Type:</dt>
+                    	<dd>Commercial property, to let</dd>
+                    </dl>
+                    <form>
+                      <label for="inputArea">Area</label>
+                      <input type="text" id="inputArea" placeholder="Area">
+                      <fieldset>
+                      		<legend>Price range</legend>
+                            <label for="min4">Minimum price:</label>
+                            <select id="min4" name="min4">
+								<option value="0" selected="">No lower limit</option>
+								<option value="100000">&pound;100,000</option>
+								<option value="200000">&pound;200,000</option>
+								<option value="300000">&pound;300,000</option>
+								<option value="400000">&pound;400,000</option>
+								<option value="500000">&pound;500,000</option>
+								<option value="600000">&pound;600,000</option>
+								<option value="700000">&pound;700,000</option>
+								<option value="800000">&pound;800,000</option>
+								<option value="900000">&pound;900,000</option>
+							</select>
+                            
+                            <label for="max4">Maximum price:</label>
+                            <select id="max4" name="max4">
+								<option value="100000">£100,000</option>
+								<option value="200000">£200,000</option>
+								<option value="300000">£300,000</option>
+								<option value="400000">£400,000</option>
+								<option value="500000">£500,000</option>
+								<option value="600000">£600,000</option>
+								<option value="700000">£700,000</option>
+								<option value="800000">£800,000</option>
+								<option value="900000">£900,000</option>
+								<option value="0" selected="">No higher limit</option>
+							</select>
+                      </fieldset>
+                      <button type="submit" class="btn btn-large btn-primary">Search</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
        </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
+      </div>
       </div>
       <hr>
       <footer class="row">
