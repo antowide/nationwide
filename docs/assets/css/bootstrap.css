@@ -5234,3 +5234,13 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+.debug-red {
+  outline: 2px dashed red;
+}
+.debug-blue {
+  outline: 2px dashed blue;
+  background: #fff;
+}
+.debug-green {
+  outline: 2px dashed green;
+}
