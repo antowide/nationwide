@@ -243,6 +243,14 @@ body {
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
 }
+.flexbox {
+  /*  Calls in flexbox mixin  */
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+}
 a {
   color: #0088cc;
   text-decoration: none;
