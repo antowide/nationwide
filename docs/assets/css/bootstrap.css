@@ -209,25 +209,8 @@ textarea {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.span1,
-.span2,
-.span3,
-.span4,
-.span5,
-.span6,
-.span7,
-.span8,
-.span9,
-.span10,
-.span11,
-.span12 {
-  outline: 2px dashed red;
-}
-.row {
-  outline: 2px dashed blue;
-}
 html {
-  height: 100%;
+  height: auto;
 }
 body {
   margin: 0;
