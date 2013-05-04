@@ -3314,7 +3314,9 @@ input[type="submit"].btn.btn-mini {
 }
 .nav {
   margin-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  /*@baseLineHeight;*/
+
   list-style: none;
 }
 .nav > li > a {
@@ -3550,6 +3552,7 @@ input[type="submit"].btn.btn-mini {
 }
 .tab-content {
   overflow: auto;
+  background: #A3D6F4;
 }
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
