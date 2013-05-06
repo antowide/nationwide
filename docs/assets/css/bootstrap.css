@@ -176,6 +176,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+/*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
 .clearfix {
   *zoom: 1;
 }
@@ -216,7 +217,7 @@ html {
 body {
   margin: 0;
   padding-bottom: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #333333;
@@ -556,7 +557,7 @@ footer > div {
   margin-left: auto;
   *zoom: 1;
   background: #fff;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.75);
 }
 .container:before,
 .container:after {
@@ -639,8 +640,8 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
-  font-weight: bold;
+  font-family: 'Play', sans-serif;
+  font-weight: normal;
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -900,7 +901,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 label {
   display: block;
@@ -3686,8 +3687,9 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
 }
 .lt-ie9 .navbar .brand {
-  outline: 5px dashed blue;
-  background: url(../img/logo01.png) no-repeat scroll 0 0 #ff0000;
+  outline: 1px dashed blue;
+  background: url(../img/logo01.png) no-repeat scroll 0 0;
+  text-indent: inherit;
 }
 .lt-ie9 .navbar .brand img.nat-logo {
   display: none;
@@ -3767,7 +3769,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -3856,6 +3858,12 @@ input[type="submit"].btn.btn-mini {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  background: url(../../../img/svg-strapline-white-text.svg) no-repeat 80% top;
+  background-size: 70%;
+  text-indent: -99999999999px;
+  width: 220px;
+  height: 40px;
+  height: 4rem;
 }
 .navbar .brand .nat-first-line {
   font-size: 18px;
