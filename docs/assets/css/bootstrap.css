@@ -3686,6 +3686,9 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand:hover {
   text-decoration: none;
 }
+.navbar .brand .brand-text {
+  display: none;
+}
 .lt-ie9 .navbar .brand {
   outline: 1px dashed blue;
   background: url(../img/logo01.png) no-repeat scroll 0 0;
@@ -3879,7 +3882,7 @@ input[type="submit"].btn.btn-mini {
 }
 /* SVG Logo */
 .navbar .nat-logo {
-  width: 40px;
+  width: 60px;
   position: absolute;
   left: 15px;
   top: 2px;
@@ -4094,8 +4097,9 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inverse .brand {
   color: #999999;
-  margin-top: 10px;
+  margin-top: 0px;
   position: relative;
+  z-index: 2;
 }
 .navbar-inverse .navbar-text {
   color: #999999;
