@@ -221,7 +221,7 @@ body {
   line-height: 20px;
   color: #333333;
   /*background-color:@bodyBackground;*/
-  background: url(../../../img/bg-2x2.gif) no-repeat;
+  background: url(../../../docs/assets/img/examples/slide-04.jpg) no-repeat fixed center top;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
