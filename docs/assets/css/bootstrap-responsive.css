@@ -1041,6 +1041,9 @@
   }
   .navbar .btn-navbar {
     display: block;
+    position: absolute;
+    right: 0;
+    z-index: 3;
   }
   .navbar-static .navbar-inner {
     padding-left: 10px;
