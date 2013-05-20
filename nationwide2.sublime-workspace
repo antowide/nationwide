@@ -24,19 +24,27 @@
 			}
 		},
 		{
-			"file": "/C/Users/Ant/Desktop/EE/fonts/icomoon81263/icomoon81263/index.html",
-			"settings":
-			{
-				"buffer_size": 34464,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/C/Users/Ant/Desktop/client_work/nationwide/brand/svg-strapline-white-text.svg",
 			"settings":
 			{
 				"buffer_size": 14980,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Ant/Desktop/bootstrap/twitter-bootstrap-ee91afb/docs/scaffolding.html",
+			"settings":
+			{
+				"buffer_size": 25172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Ant/Desktop/web experiments/flexbox/demo02/h5bp-html5-boilerplate-v4.2.0-0-g0adda79/h5bp-html5-boilerplate-defe483/index.html",
+			"settings":
+			{
+				"buffer_size": 3662,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -64,6 +72,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Ant/Desktop/bootstrap/twitter-bootstrap-ee91afb/less/scaffolding.less",
+		"/C/Users/Ant/Desktop/EE/fonts/icomoon81263/icomoon81263/index.html",
+		"/C/Users/Ant/Desktop/client_work/nationwide/website/docs/about.html",
 		"/C/Users/Ant/Desktop/client_work/nationwide/brand/svg-strapline-black-text.svg"
 	],
 	"find":
@@ -99,7 +110,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -150,7 +161,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 42.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -158,33 +169,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Ant/Desktop/EE/fonts/icomoon81263/icomoon81263/index.html",
-					"settings":
-					{
-						"buffer_size": 34464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1860.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/C/Users/Ant/Desktop/client_work/nationwide/brand/svg-strapline-white-text.svg",
 					"settings":
 					{
@@ -212,6 +196,68 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/Ant/Desktop/bootstrap/twitter-bootstrap-ee91afb/docs/scaffolding.html",
+					"settings":
+					{
+						"buffer_size": 25172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Ant/Desktop/web experiments/flexbox/demo02/h5bp-html5-boilerplate-v4.2.0-0-g0adda79/h5bp-html5-boilerplate-defe483/index.html",
+					"settings":
+					{
+						"buffer_size": 3662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2054,
+								2054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 314.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
@@ -231,11 +277,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.477300613497,
 			1.0
 		],
 		"rows":

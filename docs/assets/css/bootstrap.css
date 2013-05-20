@@ -222,7 +222,6 @@ body {
   line-height: 20px;
   color: #333333;
   /*background-color:@bodyBackground;*/
-  background: url(../../../docs/assets/img/examples/slide-04.jpg) no-repeat fixed center top;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -640,7 +639,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Play', sans-serif;
+  font-family: 'Domine', serif;
   font-weight: normal;
   line-height: 20px;
   color: inherit;
@@ -665,7 +664,7 @@ h1 {
   font-size: 38.5px;
 }
 h2 {
-  font-size: 31.5px;
+  font-size: 28px;
 }
 h3 {
   font-size: 24.5px;
